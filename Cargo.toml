@@ -1,0 +1,12 @@
+[package]
+name = "lfdt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+generic-ec = { version = "0.5", features = ["all-curves"] }
+sha2 = "0.10"
+rand = "0.8"
+
+[dev-dependencies]
+hex = "0.4"
