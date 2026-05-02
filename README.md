@@ -18,5 +18,3 @@ cargo fmt --check
 cargo test
 cargo clippy --all-targets --all-features -- -D warnings
 ```
-
-All checks pass in my local run.
